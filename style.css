@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('A.jpg') no-repeat center center fixed; /* Replace with your image URL */
+    background-size: cover; /* Ensure the image covers the entire background */
+    color: white;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* Slightly opaque for contrast */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    max-width: 300px; /* Limit width for better appearance */
+    width: 100%; /* Make it responsive */
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 100%; /* Full width for both */
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+button {
+    background-color: #FF7F50;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #FF6347;
+}
+
+.weather-info {
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
